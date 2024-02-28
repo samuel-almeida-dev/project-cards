@@ -4,7 +4,7 @@
 Este projeto é um mergulho emocionante na arte da responsividade web! 💫 O principal objetivo aqui é dominar o uso inteligente de flex-box e media queries para criar um layout que se ajuste perfeitamente a uma variedade de dispositivos, desde smartphones até desktops espaçosos.
 
 ## Visualize e acesse a Página
-![image](https://github.com/samuel-almeida-dev/project-cards/assets/130515347/cbb64217-c75a-45f7-bed2-c417cb3e3e22)
+![image](https://github.com/samuel-almeida-dev/project-cards/assets/130515347/f2339be4-2761-4f20-8579-a2f52474d80f)
 Para visualizar a página em ação, acesse este [link](https://samuel-almeida-dev.github.io/project-cards/).
 
 
