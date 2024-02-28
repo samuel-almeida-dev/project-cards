@@ -46,6 +46,7 @@ h3 {
     margin-top: 1vh;
     text-align: center;
     box-shadow: 2px 1px 2px black;
+    border-radius: 5px;
 }
 
 .box-itens {
@@ -58,12 +59,13 @@ h3 {
     align-items: center;
     justify-content: space-evenly;
     padding: 1vh;
+    border-radius: 10px;
 }
 
 @media (max-width: 1366px) {
     main {
         height: 1366px;
-        margin-top: -15px;
+        margin-top: -25px;
     }
     .container-main {
         height: 1200px;
@@ -71,7 +73,7 @@ h3 {
     }
     .box-itens {
         height: 470px;
-        width: 900px;
+        width: 950px;
     }
     h1 {
         font-size: 120px;
@@ -91,7 +93,7 @@ h3 {
         width: 1200px;
         }
     .box-itens {
-        width: 620px;
+        width: 630px;
         height: 670px;
     }
     h1 {
@@ -139,8 +141,15 @@ h3 {
     display: flex;
     justify-content: center;
     flex-direction: column;
-
+    transition: 1s;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
 }
+
+.item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+  }
 
 .text-item {
     font-family: "Roboto", sans-serif;
@@ -152,5 +161,16 @@ h3 {
     margin: 0 0;
     padding: 1vh 1.2vh;
     font-size: 2vh;
+    border-radius: 0 0 10px 10px;
+    transition: 0.2s;
+}
+
+.text-item:hover{
+    background-color: white;
+    color: black;
+}
+
+img {
+    border-radius: 10px 10px 0 0;
 }
 
